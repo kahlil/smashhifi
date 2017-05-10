@@ -1,0 +1,77 @@
+html {
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo--img {
+	max-width: 500px;
+	max-height: 500px;
+	width: 500px;
+	height: 500px;
+}
+
+/* Social Links */
+.links {
+	padding: 0;
+	margin: 1rem;
+	text-align: center;
+}
+
+.links--li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: 1rem;
+}
+
+.links--li:last-child {
+	margin-right: 0;
+}
+
+.booking {
+	margin-top: 1.5rem;
+}
+
+.album {
+	margin-top: 1.5rem;
+}
+
+.separator {
+	height: 1px;
+	background-color: #222;
+	width: 50px;
+	margin: 3rem auto 0 auto;
+}
+
+.separator.half {
+	margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .logo--img {
+	  width: 100%;
+	  height: 100%;
+  }
+}

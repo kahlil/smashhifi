@@ -1,0 +1,19 @@
+{
+  "name": "smashhifi.com",
+  "version": "1.0.0",
+  "description": "The SMASH HIFI website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo -d src -l",
+		"surge": "surge src smashhifi.com",
+		"surge:h": "surge -h"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.4.1",
+    "surge": "^0.18.0"
+  }
+}

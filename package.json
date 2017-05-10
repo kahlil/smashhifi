@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "budo -d src -l",
 		"surge": "surge src smashhifi.com",
-		"surge:h": "surge -h"
+		"surge:h": "surge --help"
   },
   "keywords": [],
   "author": "",
